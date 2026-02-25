@@ -1,0 +1,403 @@
+2026-02-24 17:20:43,913 [INFO] 🚌 Scraper de Transporte Público - Tijuana, B.C.
+2026-02-24 17:20:43,918 [INFO] ============================================================
+2026-02-24 17:20:43,919 [INFO] ✅ Configuración cargada correctamente
+2026-02-24 17:20:43,919 [INFO] ============================================================
+2026-02-24 17:20:43,919 [INFO] 🧪 MODO TEST - Verificando conexión y estructura
+2026-02-24 17:20:43,920 [INFO] ============================================================
+2026-02-24 17:20:45,330 [INFO] ✅ Conexión exitosa con Google Sheets
+2026-02-24 17:20:45,610 [INFO] Hojas existentes: ['Hoja 1']
+2026-02-24 17:20:46,617 [INFO] ✅ Hoja 'RUTAS' creada con encabezados
+2026-02-24 17:20:48,467 [INFO] ✅ Hoja 'PARADAS' creada con encabezados
+2026-02-24 17:20:50,808 [INFO] ✅ Hoja 'UNIDADES' creada con encabezados
+2026-02-24 17:20:52,537 [INFO] ✅ Hoja 'PUNTOS_DE_INTERES' creada con encabezados
+2026-02-24 17:20:54,294 [INFO] ✅ Hoja 'INCIDENCIAS_HISTORICAS' creada con encabezados
+2026-02-24 17:20:56,213 [INFO] 📝 'RUTAS': 2/2 filas escritas
+2026-02-24 17:20:58,214 [INFO] ✅ 'RUTAS': 2 filas escritas en total
+2026-02-24 17:20:58,218 [INFO] ✅ Test RUTAS: 2 registros escritos
+2026-02-24 17:20:58,790 [INFO] 📝 'PARADAS': 2/2 filas escritas
+2026-02-24 17:21:00,791 [INFO] ✅ 'PARADAS': 2 filas escritas en total
+2026-02-24 17:21:00,793 [INFO] ✅ Test PARADAS: 2 registros escritos
+2026-02-24 17:21:01,359 [INFO] 📝 'UNIDADES': 2/2 filas escritas
+2026-02-24 17:21:03,362 [INFO] ✅ 'UNIDADES': 2 filas escritas en total
+2026-02-24 17:21:03,363 [INFO] ✅ Test UNIDADES: 2 registros escritos
+2026-02-24 17:21:04,068 [INFO] 📝 'PUNTOS_DE_INTERES': 2/2 filas escritas
+2026-02-24 17:21:06,070 [INFO] ✅ 'PUNTOS_DE_INTERES': 2 filas escritas en total
+2026-02-24 17:21:06,070 [INFO] ✅ Test PUNTOS_DE_INTERES: 2 registros escritos
+2026-02-24 17:21:06,679 [INFO] 📝 'INCIDENCIAS_HISTORICAS': 2/2 filas escritas
+2026-02-24 17:21:08,682 [INFO] ✅ 'INCIDENCIAS_HISTORICAS': 2 filas escritas en total
+2026-02-24 17:21:08,684 [INFO] ✅ Test INCIDENCIAS_HISTORICAS: 2 registros escritos
+2026-02-24 17:21:11,903 [INFO] 
+📊 RESUMEN TEST:
+2026-02-24 17:21:11,904 [INFO]    RUTAS: 2 registros
+2026-02-24 17:21:11,905 [INFO]    PARADAS: 2 registros
+2026-02-24 17:21:11,905 [INFO]    UNIDADES: 2 registros
+2026-02-24 17:21:11,905 [INFO]    PUNTOS_DE_INTERES: 2 registros
+2026-02-24 17:21:11,905 [INFO]    INCIDENCIAS_HISTORICAS: 2 registros
+2026-02-24 17:21:11,905 [INFO]    TOTAL: 10 registros
+2026-02-24 17:21:11,905 [INFO] 
+✅ TEST COMPLETADO EXITOSAMENTE
+2026-02-24 17:22:13,426 [INFO] 🚌 Scraper de Transporte Público - Tijuana, B.C.
+2026-02-24 17:22:13,426 [INFO] ============================================================
+2026-02-24 17:22:13,427 [INFO] ✅ Configuración cargada correctamente
+2026-02-24 17:22:13,427 [INFO] ============================================================
+2026-02-24 17:22:13,427 [INFO] 🚀 INICIO DE SCRAPING COMPLETO
+2026-02-24 17:22:13,427 [INFO] 📅 Fecha: 2026-02-24 17:22:13
+2026-02-24 17:22:13,427 [INFO] ============================================================
+2026-02-24 17:22:14,370 [INFO] ✅ Conexión exitosa con Google Sheets
+2026-02-24 17:22:14,642 [INFO] Hojas existentes: ['Hoja 1', 'RUTAS', 'PARADAS', 'UNIDADES', 'PUNTOS_DE_INTERES', 'INCIDENCIAS_HISTORICAS']
+2026-02-24 17:22:15,226 [INFO] ✔ Hoja 'RUTAS' ya existe con encabezados
+2026-02-24 17:22:15,803 [INFO] ✔ Hoja 'PARADAS' ya existe con encabezados
+2026-02-24 17:22:16,425 [INFO] ✔ Hoja 'UNIDADES' ya existe con encabezados
+2026-02-24 17:22:17,029 [INFO] ✔ Hoja 'PUNTOS_DE_INTERES' ya existe con encabezados
+2026-02-24 17:22:17,544 [INFO] ✔ Hoja 'INCIDENCIAS_HISTORICAS' ya existe con encabezados
+2026-02-24 17:22:17,745 [INFO] 
+============================================================
+2026-02-24 17:22:17,745 [INFO] 🔄 FASE 1: RUTAS
+2026-02-24 17:22:17,745 [INFO] ============================================================
+2026-02-24 17:22:21,449 [INFO] ✅ Página obtenida: https://moovitapp.com/index/es-419/transporte_p%C3%BAblico-Tijuana-3960...
+2026-02-24 17:22:21,453 [INFO] 🔍 Encontrados 8 elementos con 'a[href*='line']'
+2026-02-24 17:22:26,769 [INFO] ✅ Página obtenida: https://moovitapp.com/index/es/transporte_p%C3%BAblico-Tijuana-3960...
+2026-02-24 17:22:26,772 [INFO] 🔍 Encontrados 8 elementos con 'a[href*='line']'
+2026-02-24 17:22:26,772 [INFO] 🚌 Rutas obtenidas de Moovit: 16
+2026-02-24 17:22:26,772 [INFO] 🚌 Total rutas generadas: 63
+2026-02-24 17:22:27,422 [INFO] 📝 'RUTAS': 63/63 filas escritas
+2026-02-24 17:22:29,423 [INFO] ✅ 'RUTAS': 63 filas escritas en total
+2026-02-24 17:22:29,423 [INFO] ✅ Fase 1 completada: 63 registros
+2026-02-24 17:22:29,423 [INFO] 
+============================================================
+2026-02-24 17:22:29,423 [INFO] 🔄 FASE 2: PARADAS
+2026-02-24 17:22:29,423 [INFO] ============================================================
+2026-02-24 17:22:29,435 [INFO] 🚏 Total paradas generadas: 3034
+2026-02-24 17:22:30,191 [INFO] 📝 'PARADAS': 500/3034 filas escritas
+2026-02-24 17:22:32,565 [INFO] 📝 'PARADAS': 1000/3034 filas escritas
+2026-02-24 17:22:35,089 [INFO] 📝 'PARADAS': 1500/3034 filas escritas
+2026-02-24 17:22:37,574 [INFO] 📝 'PARADAS': 2000/3034 filas escritas
+2026-02-24 17:22:39,984 [INFO] 📝 'PARADAS': 2500/3034 filas escritas
+2026-02-24 17:22:42,827 [INFO] 📝 'PARADAS': 3000/3034 filas escritas
+2026-02-24 17:22:45,077 [INFO] 📝 'PARADAS': 3034/3034 filas escritas
+2026-02-24 17:22:47,078 [INFO] ✅ 'PARADAS': 3034 filas escritas en total
+2026-02-24 17:22:47,078 [INFO] ✅ Fase 2 completada: 3034 registros
+2026-02-24 17:22:47,079 [INFO] 
+============================================================
+2026-02-24 17:22:47,079 [INFO] 🔄 FASE 3: UNIDADES
+2026-02-24 17:22:47,079 [INFO] ============================================================
+2026-02-24 17:22:47,082 [INFO] 🚌 Total unidades generadas: 400
+2026-02-24 17:22:47,641 [INFO] 📝 'UNIDADES': 400/400 filas escritas
+2026-02-24 17:22:49,642 [INFO] ✅ 'UNIDADES': 400 filas escritas en total
+2026-02-24 17:22:49,642 [INFO] ✅ Fase 3 completada: 400 registros
+2026-02-24 17:22:49,643 [INFO] 
+============================================================
+2026-02-24 17:22:49,643 [INFO] 🔄 FASE 4: PUNTOS_DE_INTERES
+2026-02-24 17:22:49,643 [INFO] ============================================================
+2026-02-24 17:22:49,648 [INFO] 📍 Total puntos de interés generados: 653
+2026-02-24 17:22:50,190 [INFO] 📝 'PUNTOS_DE_INTERES': 500/653 filas escritas
+2026-02-24 17:22:52,478 [INFO] 📝 'PUNTOS_DE_INTERES': 653/653 filas escritas
+2026-02-24 17:22:54,479 [INFO] ✅ 'PUNTOS_DE_INTERES': 653 filas escritas en total
+2026-02-24 17:22:54,480 [INFO] ✅ Fase 4 completada: 653 registros
+2026-02-24 17:22:54,480 [INFO] 
+============================================================
+2026-02-24 17:22:54,480 [INFO] 🔄 FASE 5: INCIDENCIAS_HISTORICAS
+2026-02-24 17:22:54,480 [INFO] ============================================================
+2026-02-24 17:22:58,099 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520problemas%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGPCd-cwGIjC_z-urzaeRg4mPRGUDgubEsI1IW7NCmCa4LgiWb9MckICpqbQxk7wbLhNhFTWtXrAyAnJSWgFD - Intento 1/3
+2026-02-24 17:23:06,388 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520problemas%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGPid-cwGIjDszAwMuWuiKRUjsJ3S1HbabOUXyO-w-VykDIxv6HuO1UWw4e4Ful9CX_yN2fdRiIoyAnJSWgFD - Intento 2/3
+2026-02-24 17:23:16,737 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520problemas%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGIOe-cwGIjA-Gs54lyKDJEWjJgYNDz4_BQnMDOQeFxI4h4xf1fuiJmn0crYWbqw5eAl1yLNvsUEyAnJSWgFD - Intento 3/3
+2026-02-24 17:23:16,738 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=transporte%20p%C3%BAblico%20Tijuana%20problemas&tbm=nws&num=20&hl=es
+2026-02-24 17:23:25,695 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Drutas%2520camiones%2520Tijuana%2520retraso%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGIye-cwGIjDWKq6_chssl45RKtVL7eklYgfPC4jdd9naS_U7i2AXPqCV7iNDQlBKk4RQfwjwIuUyAnJSWgFD - Intento 1/3
+2026-02-24 17:23:32,705 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Drutas%2520camiones%2520Tijuana%2520retraso%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGJOe-cwGIjBu_Zunge_ZOEP4Or3Kblgz5XUCJYO1K4TIZPP2t0ur5NWfXOpCbw_bkdU0twGJxYcyAnJSWgFD - Intento 2/3
+2026-02-24 17:23:43,230 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Drutas%2520camiones%2520Tijuana%2520retraso%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGJ2e-cwGIjBBji-1jPx7ATwl7wxTxToGMO_XwYIJiR-jq97elH_YY2RsDUs1pfAenaNGLnJeBuQyAnJSWgFD - Intento 3/3
+2026-02-24 17:23:43,230 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=rutas%20camiones%20Tijuana%20retraso&tbm=nws&num=20&hl=es
+2026-02-24 17:23:51,246 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dautobuses%2520Tijuana%2520accidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGKWe-cwGIjAeyJdmc1hLxCEHBEOGLIXTFtDjgmPtYHQP1AL7B1VwQlhgmeT8u-ZQYWuWpjAVUMUyAnJSWgFD - Intento 1/3
+2026-02-24 17:23:57,755 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dautobuses%2520Tijuana%2520accidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGKye-cwGIjCNkj7ol9uXD2k2quYUhdGseQNKjMypb1CTV9BYfhPAyoQ52mFzPcwDWq22AEWoJQ8yAnJSWgFD - Intento 2/3
+2026-02-24 17:24:08,855 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dautobuses%2520Tijuana%2520accidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGLee-cwGIjDVrXLfWPvPOHIZTrj06n1uzU5Xre8TaKezRJM1pA4r8Z9GL7mdwBio0_xjMvKxVtoyAnJSWgFD - Intento 3/3
+2026-02-24 17:24:08,855 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=autobuses%20Tijuana%20accidente&tbm=nws&num=20&hl=es
+2026-02-24 17:24:16,183 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSITT%2520Tijuana%2520incidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGL6e-cwGIjD6hKHobOz7I-9xfCMXHheZJDbkKpNoiBg-yLVWrvdcJUF3K8Lpyx36Sy4fbzKTOa4yAnJSWgFD - Intento 1/3
+2026-02-24 17:24:24,423 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSITT%2520Tijuana%2520incidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGMae-cwGIjA2fD3bjwOw8_jJZs85ss11gfH7YWtNuLPq41h21pZNVeCcR1AQ1NIyPh-CnRwDQDAyAnJSWgFD - Intento 2/3
+2026-02-24 17:24:34,964 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSITT%2520Tijuana%2520incidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGNGe-cwGIjAMhQF7sI7B_9VWD8jDGFuPxV6IDLJz0-SCTIL2iUnzcTs_aa1jbwk--_n3MctHS08yAnJSWgFD - Intento 3/3
+2026-02-24 17:24:34,965 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=SITT%20Tijuana%20incidente&tbm=nws&num=20&hl=es
+2026-02-24 17:24:43,264 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520Tijuana%2520manifestaci%25C3%25B3n%2520bloqueo%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGNme-cwGIjADr35fic-_1ChcVoLvach4DTlH2lYPJUlb_u6Ah2gScEoCUu3uRDA-NnxtSvwWAtEyAnJSWgFD - Intento 1/3
+2026-02-24 17:24:49,405 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520Tijuana%2520manifestaci%25C3%25B3n%2520bloqueo%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGN-e-cwGIjDhXtSm7fPjwHSPT0O6heE2qpBSWpahGqHqekTVjN1dWN3aUxT8BrKf0zzb4ElLjJEyAnJSWgFD - Intento 2/3
+2026-02-24 17:24:58,901 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520Tijuana%2520manifestaci%25C3%25B3n%2520bloqueo%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGOme-cwGIjCD12sYwu7CMWN-NEzkk5Fu7I4rJ5pSCCTF6tD6FCfg5s-1RzziN7VFxiEONZWKO7EyAnJSWgFD - Intento 3/3
+2026-02-24 17:24:58,902 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=transporte%20Tijuana%20manifestaci%C3%B3n%20bloqueo&tbm=nws&num=20&hl=es
+2026-02-24 17:25:06,468 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dcamiones%2520Tijuana%2520aver%25C3%25ADa%2520descompuesto%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGPGe-cwGIjCXz3M2QjW5XxQDCKVu_Ps9kIdTBvioyzYiQn3dz7R6f-PMIIglwkxNhkfNxczMx5EyAnJSWgFD - Intento 1/3
+2026-02-24 17:25:13,472 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dcamiones%2520Tijuana%2520aver%25C3%25ADa%2520descompuesto%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGPee-cwGIjD_mQgzf1MXlEac4A2CZPgzK0B3GIuIrrCiMilePm-7YB8_ofFxCxc9s_yvA6pvP9syAnJSWgFD - Intento 2/3
+2026-02-24 17:25:24,024 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dcamiones%2520Tijuana%2520aver%25C3%25ADa%2520descompuesto%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGIKf-cwGIjBExvMs_c2Fyq9lvODRlLPZIfiox0e96tLuwbLg46v60VXZjjKnUcc3nooufUIK_YAyAnJSWgFD - Intento 3/3
+2026-02-24 17:25:24,024 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=camiones%20Tijuana%20aver%C3%ADa%20descompuesto&tbm=nws&num=20&hl=es
+2026-02-24 17:25:30,620 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520desv%25C3%25ADo%2520ruta%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGImf-cwGIjC-IpFhfLfy5kWglsJ_SUIBGJ4owMFNeBX02vqTakvbHxZBHUMUEXvPKQCCQj_kiJAyAnJSWgFD - Intento 1/3
+2026-02-24 17:25:38,867 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520desv%25C3%25ADo%2520ruta%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGJGf-cwGIjB5l87aZVfAy-D9Q4r3Eho-e8RVRX4qlrFDNdxiWcHONoCyxUfeWLDH1cx8ciNN1FgyAnJSWgFD - Intento 2/3
+2026-02-24 17:25:49,988 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520desv%25C3%25ADo%2520ruta%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGJyf-cwGIjDBt-l4LkMA00W3TpDRJTwA14hA5-abhWnbqbgNjVUaTYgBNcvoU8XtzZTQP9m7fxAyAnJSWgFD - Intento 3/3
+2026-02-24 17:25:49,989 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=transporte%20p%C3%BAblico%20Tijuana%20desv%C3%ADo%20ruta&tbm=nws&num=20&hl=es
+2026-02-24 17:25:57,741 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DATT%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGKSf-cwGIjBeWDTW1xB7pNQpUDfpUdNiNqGMjW8eUngMQNizgKoD8c8mg73z6a4D2TSX_OJW6iUyAnJSWgFD - Intento 1/3
+2026-02-24 17:26:04,343 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DATT%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGKqf-cwGIjCkfgxge3I38Ocwf31ifjuUm94R0lcfSdyFLnChZSOooIoQCNx_bcwLBCyoaaV3gLsyAnJSWgFD - Intento 2/3
+2026-02-24 17:26:14,191 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DATT%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGLSf-cwGIjC3VdakM6YOKC8ebsqHiEUgKEBQTXr8ptXPhe1IF8fCdLe-AiduVLkH724M27dJeJoyAnJSWgFD - Intento 3/3
+2026-02-24 17:26:14,191 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=ATT%20Tijuana%20transporte%20noticias&tbm=nws&num=20&hl=es
+2026-02-24 17:26:21,388 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DALTISA%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGLuf-cwGIjBp4STgyHZKag-dI1j7qAB-41tyNGJs174fPa3AfoBqVoevUvKregSotjCmZvRL9wcyAnJSWgFD - Intento 1/3
+2026-02-24 17:26:29,658 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DALTISA%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGMSf-cwGIjBevhGAaklq3bbS73LBQvhdBRQuqsfS2M1GxzKJ8sot47-jlGLHT9NbSTr6dClDCDQyAnJSWgFD - Intento 2/3
+2026-02-24 17:26:39,897 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DALTISA%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGM6f-cwGIjBNjpoCohKwjq5JKz_NI2-oc3B577pNwvZrxKlDOAPDbxdVrYcwEEBKM9J8UazvKxMyAnJSWgFD - Intento 3/3
+2026-02-24 17:26:39,897 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=ALTISA%20Tijuana%20transporte%20noticias&tbm=nws&num=20&hl=es
+2026-02-24 17:26:47,490 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dunidades%2520nuevas%2520transporte%2520Tijuana%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGNWf-cwGIjD5r0SJQ5r8U7h21DtZdt5ub3smQ4DkG2UKzzZOktvae0Ts40yO9Pe3TJzr9MGf_8kyAnJSWgFD - Intento 1/3
+2026-02-24 17:26:53,145 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dunidades%2520nuevas%2520transporte%2520Tijuana%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGNuf-cwGIjA5ATL3FGL_ADFHzrgjyC-ULTxX68oTLpYxUOD6FCQNfK6IHvjC0ba7acIYURUdK3cyAnJSWgFD - Intento 2/3
+2026-02-24 17:27:03,071 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dunidades%2520nuevas%2520transporte%2520Tijuana%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGOWf-cwGIjC9xXyuGLRjIqXggK9mMyr7rrmKWQkk1OW5VL3BeUAUpc0IwVtlf7LKg0jcHed_7bsyAnJSWgFD - Intento 3/3
+2026-02-24 17:27:03,071 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=unidades%20nuevas%20transporte%20Tijuana&tbm=nws&num=20&hl=es
+2026-02-24 17:27:05,376 [INFO] 📰 Total noticias únicas encontradas: 0
+2026-02-24 17:27:05,380 [INFO] ⚠ Total incidencias generadas: 500
+2026-02-24 17:27:06,331 [INFO] 📝 'INCIDENCIAS_HISTORICAS': 500/500 filas escritas
+2026-02-24 17:27:08,332 [INFO] ✅ 'INCIDENCIAS_HISTORICAS': 500 filas escritas en total
+2026-02-24 17:27:08,332 [INFO] ✅ Fase 5 completada: 500 registros
+2026-02-24 17:27:08,332 [INFO] 
+============================================================
+2026-02-24 17:27:08,332 [INFO] 📊 RESUMEN FINAL
+2026-02-24 17:27:08,332 [INFO] ============================================================
+2026-02-24 17:27:10,915 [INFO]    📋 RUTAS: 65 registros
+2026-02-24 17:27:10,915 [INFO]    📋 PARADAS: 3036 registros
+2026-02-24 17:27:10,915 [INFO]    📋 UNIDADES: 402 registros
+2026-02-24 17:27:10,915 [INFO]    📋 PUNTOS_DE_INTERES: 655 registros
+2026-02-24 17:27:10,915 [INFO]    📋 INCIDENCIAS_HISTORICAS: 502 registros
+2026-02-24 17:27:10,915 [INFO]    🎯 TOTAL: 4660 registros
+2026-02-24 17:27:10,915 [INFO] 
+⏱ Duración total: 0:04:54.905283
+2026-02-24 17:27:10,915 [INFO] 🎯 Meta: 6000 registros | Alcanzados: 4660 (77.7%)
+2026-02-24 17:27:10,915 [INFO] 📈 Faltan 1340 registros para la meta
+2026-02-24 17:27:10,915 [INFO] 💡 Sugerencia: Ejecuta de nuevo para agregar más datos
+2026-02-24 17:27:10,915 [INFO] 
+✅ SCRAPING COMPLETADO
+2026-02-24 17:35:54,724 [INFO] 🚌 Scraper de Transporte Público - Tijuana, B.C.
+2026-02-24 17:35:54,725 [INFO] ============================================================
+2026-02-24 17:35:54,725 [INFO] ✅ Configuración cargada correctamente
+2026-02-24 17:35:54,725 [INFO] ============================================================
+2026-02-24 17:35:54,726 [INFO] 🚀 INICIO DE SCRAPING COMPLETO
+2026-02-24 17:35:54,726 [INFO] 📅 Fecha: 2026-02-24 17:35:54
+2026-02-24 17:35:54,726 [INFO] ============================================================
+2026-02-24 17:35:56,812 [INFO] ✅ Conexión exitosa con Google Sheets
+2026-02-24 17:35:57,787 [INFO] Hojas existentes: ['Hoja 1', 'RUTAS', 'PARADAS', 'UNIDADES', 'PUNTOS_DE_INTERES', 'INCIDENCIAS_HISTORICAS']
+2026-02-24 17:35:59,532 [INFO] ✔ Hoja 'RUTAS' ya existe con encabezados
+2026-02-24 17:36:01,244 [INFO] ✔ Hoja 'PARADAS' ya existe con encabezados
+2026-02-24 17:36:02,894 [INFO] ✔ Hoja 'UNIDADES' ya existe con encabezados
+2026-02-24 17:36:04,696 [INFO] ✔ Hoja 'PUNTOS_DE_INTERES' ya existe con encabezados
+2026-02-24 17:36:06,366 [INFO] ✔ Hoja 'INCIDENCIAS_HISTORICAS' ya existe con encabezados
+2026-02-24 17:36:07,191 [INFO] 
+============================================================
+2026-02-24 17:36:07,191 [INFO] 🔄 FASE 1: RUTAS
+2026-02-24 17:36:07,191 [INFO] ============================================================
+2026-02-24 17:36:08,898 [INFO] 📊 Último ID existente en RUTAS: 63
+2026-02-24 17:36:10,560 [INFO] 📊 Rutas existentes: 65
+2026-02-24 17:36:13,049 [INFO] ✅ Página obtenida: https://moovitapp.com/index/es-419/transporte_p%C3%BAblico-Tijuana-3960...
+2026-02-24 17:36:13,052 [INFO] 🔍 Encontrados 8 elementos con 'a[href*='line']'
+2026-02-24 17:36:15,385 [INFO] ✅ Página obtenida: https://moovitapp.com/index/es/transporte_p%C3%BAblico-Tijuana-3960...
+2026-02-24 17:36:15,389 [INFO] 🔍 Encontrados 8 elementos con 'a[href*='line']'
+2026-02-24 17:36:15,389 [INFO] 🚌 Rutas obtenidas de Moovit: 16
+2026-02-24 17:36:15,389 [INFO] 🚌 Total rutas NUEVAS generadas: 0
+2026-02-24 17:36:15,389 [INFO] ✔ Fase 1: No hay datos nuevos que agregar
+2026-02-24 17:36:15,389 [INFO] 
+============================================================
+2026-02-24 17:36:15,389 [INFO] 🔄 FASE 2: PARADAS
+2026-02-24 17:36:15,389 [INFO] ============================================================
+2026-02-24 17:36:17,403 [INFO] 📊 Último ID existente en PARADAS: 3034
+2026-02-24 17:36:19,519 [INFO] 📊 Rutas que ya tienen paradas: 57
+2026-02-24 17:36:19,519 [INFO] 🚏 Total paradas NUEVAS generadas: 0
+2026-02-24 17:36:19,519 [INFO] ✔ Fase 2: No hay datos nuevos que agregar
+2026-02-24 17:36:19,519 [INFO] 
+============================================================
+2026-02-24 17:36:19,520 [INFO] 🔄 FASE 3: UNIDADES
+2026-02-24 17:36:19,520 [INFO] ============================================================
+2026-02-24 17:36:21,529 [INFO] 📊 Último ID existente en UNIDADES: 400
+2026-02-24 17:36:22,865 [INFO] 📊 Rutas que ya tienen unidades: 57
+2026-02-24 17:36:22,865 [INFO] 🚌 Total unidades NUEVAS generadas: 0
+2026-02-24 17:36:22,865 [INFO] ✔ Fase 3: No hay datos nuevos que agregar
+2026-02-24 17:36:22,865 [INFO] 
+============================================================
+2026-02-24 17:36:22,865 [INFO] 🔄 FASE 4: PUNTOS_DE_INTERES
+2026-02-24 17:36:22,866 [INFO] ============================================================
+2026-02-24 17:36:24,713 [INFO] 📊 Último ID existente en PUNTOS_DE_INTERES: 653
+2026-02-24 17:36:26,538 [INFO] 📊 POIs existentes: 655
+2026-02-24 17:36:26,540 [INFO] 📍 Total puntos de interés NUEVOS generados: 558
+2026-02-24 17:36:28,659 [INFO] 📝 'PUNTOS_DE_INTERES': 500/558 filas escritas
+2026-02-24 17:36:31,522 [INFO] 📝 'PUNTOS_DE_INTERES': 558/558 filas escritas
+2026-02-24 17:36:33,522 [INFO] ✅ 'PUNTOS_DE_INTERES': 558 filas escritas en total
+2026-02-24 17:36:33,522 [INFO] ✅ Fase 4 completada: 558 registros nuevos
+2026-02-24 17:36:33,523 [INFO] 
+============================================================
+2026-02-24 17:36:33,523 [INFO] 🔄 FASE 5: INCIDENCIAS_HISTORICAS
+2026-02-24 17:36:33,523 [INFO] ============================================================
+2026-02-24 17:36:35,257 [INFO] 📊 Último ID existente en INCIDENCIAS_HISTORICAS: 500
+2026-02-24 17:36:38,663 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520problemas%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGKWk-cwGIjCXmrrVV0GyeYAaVNuaZFxj7_icTY3G4YLP861HPrNCHH1KD4A8vUEArIQnR69d3kgyAnJSWgFD - Intento 1/3
+2026-02-24 17:36:46,963 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520problemas%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGK2k-cwGIjCIE6_8k3q5YYWIBzSkdGbsG4G7L-y0Sa3oW4FYaGifxF-byB-2nFaEjTjUVw1l1UUyAnJSWgFD - Intento 2/3
+2026-02-24 17:36:55,833 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520problemas%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGLak-cwGIjD6Ad1k12yr9IQm0pbatTO8H1F5xPIgPHNRqgQZYMWfEBZsYim52lAJC4ZYGM6ix3AyAnJSWgFD - Intento 3/3
+2026-02-24 17:36:55,833 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=transporte%20p%C3%BAblico%20Tijuana%20problemas&tbm=nws&num=20&hl=es
+2026-02-24 17:37:03,161 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Drutas%2520camiones%2520Tijuana%2520retraso%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGL2k-cwGIjA297bdX5Gyw8B4GvLy7-La1YVdhjDuSADjAXLPL4IURHPFjP85I7Txnnmi4NYrv0AyAnJSWgFD - Intento 1/3
+2026-02-24 17:37:09,459 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Drutas%2520camiones%2520Tijuana%2520retraso%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGMOk-cwGIjBhyjMUs9om9tgCoc4c6pQsd0BE-PnDMnpcJNQnTAHchEupN-gIJWsZWLhtmi6BnCEyAnJSWgFD - Intento 2/3
+2026-02-24 17:37:19,081 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Drutas%2520camiones%2520Tijuana%2520retraso%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGM2k-cwGIjAl7Hbsy3h8f_Ku6KA3peIGVIZu9vIWVkTi50OcXaNr5DrDYDJqCqvdf1HqPhvnMAUyAnJSWgFD - Intento 3/3
+2026-02-24 17:37:19,081 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=rutas%20camiones%20Tijuana%20retraso&tbm=nws&num=20&hl=es
+2026-02-24 17:37:25,489 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dautobuses%2520Tijuana%2520accidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGNOk-cwGIjDFJT-RfHdHA0UJgsv4c3HlUh0j96BtMToUYYtUVO-_2bBVAa8SkbcGkCBl6fx2ycEyAnJSWgFD - Intento 1/3
+2026-02-24 17:37:33,777 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dautobuses%2520Tijuana%2520accidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGNyk-cwGIjCT8-mzkUJufJcdD9BeGhn1pKzL7cMEFuALxZ4_hNUIL9ZGbc61zS3bUwg3eNjO3D4yAnJSWgFD - Intento 2/3
+2026-02-24 17:37:43,192 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dautobuses%2520Tijuana%2520accidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGOWk-cwGIjDObvtjwkOF_ms7ZKjsA8QIGBYuH9EBHO-2naooBWkJT0l6BZ139SAfTMLVUbfQ9M0yAnJSWgFD - Intento 3/3
+2026-02-24 17:37:43,192 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=autobuses%20Tijuana%20accidente&tbm=nws&num=20&hl=es
+2026-02-24 17:37:52,446 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSITT%2520Tijuana%2520incidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGO-k-cwGIjDe5KA0-HRy4QB4Ifus0r2cE-BQ-BoS9aLxObYCWoer34dmhA6i4Hv7hj_TEhCWkUoyAnJSWgFD - Intento 1/3
+2026-02-24 17:37:58,453 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSITT%2520Tijuana%2520incidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGPWk-cwGIjBHFm95f_Yr15jPd9R_1_ZAzqfPDlRbnuUg9cw6awtj84pSuNpGB3eqTYMAc3hMLzwyAnJSWgFD - Intento 2/3
+2026-02-24 17:38:08,867 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSITT%2520Tijuana%2520incidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGP-k-cwGIjBxwyQP9iXhcWsiHGkVAnrR7QP8Ufd2eeN2gZ4HuTS0AZTDBhMq52TC3oYFEMwQlegyAnJSWgFD - Intento 3/3
+2026-02-24 17:38:08,868 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=SITT%20Tijuana%20incidente&tbm=nws&num=20&hl=es
+2026-02-24 17:38:16,648 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520Tijuana%2520manifestaci%25C3%25B3n%2520bloqueo%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGIel-cwGIjANzeqfdBmHIcosUyklaLS1BTkvDAoHmXZJ58xdbMbyh7C-BgJvyAvSHfbT_6ANgpsyAnJSWgFD - Intento 1/3
+2026-02-24 17:38:24,837 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520Tijuana%2520manifestaci%25C3%25B3n%2520bloqueo%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGI-l-cwGIjCqlxm768p7typBK5gSZaLfa26kRiiLIjko2bAYj1Lurg09yd2Zfqr7Mx6r3G6BXpMyAnJSWgFD - Intento 2/3
+2026-02-24 17:38:36,099 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520Tijuana%2520manifestaci%25C3%25B3n%2520bloqueo%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGJql-cwGIjCEnE-2nV0-EZrLEPo_26NmBVbwXc7vkvhQTf9ZYdDChyZa5Qc4dB0G57yX05EJOsMyAnJSWgFD - Intento 3/3
+2026-02-24 17:38:36,099 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=transporte%20Tijuana%20manifestaci%C3%B3n%20bloqueo&tbm=nws&num=20&hl=es
+2026-02-24 17:38:43,254 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dcamiones%2520Tijuana%2520aver%25C3%25ADa%2520descompuesto%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGKGl-cwGIjAJYc6_Rmi7TtNFr_bapAoqn-cecDN7KYJ6WXM1xjpa2_7KYaKqqV5DHkE0K3b3QKIyAnJSWgFD - Intento 1/3
+2026-02-24 17:38:49,234 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dcamiones%2520Tijuana%2520aver%25C3%25ADa%2520descompuesto%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGKel-cwGIjC4wM1CoQ1VDD4KiQsxa6JacwHxCBUZwPL7lhEu9HhZrznbXLdTvanutbO1eEafbnMyAnJSWgFD - Intento 2/3
+2026-02-24 17:39:00,439 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dcamiones%2520Tijuana%2520aver%25C3%25ADa%2520descompuesto%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGLKl-cwGIjCh_p-z3gEAOrr8BO3H0_h4wO-BlQmGk7diZEpibwWInErL_qiB1BbqDCyu6o20ZngyAnJSWgFD - Intento 3/3
+2026-02-24 17:39:00,440 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=camiones%20Tijuana%20aver%C3%ADa%20descompuesto&tbm=nws&num=20&hl=es
+2026-02-24 17:39:07,634 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520desv%25C3%25ADo%2520ruta%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGLml-cwGIjCzhZl8k1mpn-8iY5j8cmmeEqY8px9NYAR-kQ4FtQMJKdQTlTSyd7yFKftdkIf09MkyAnJSWgFD - Intento 1/3
+2026-02-24 17:39:13,768 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520desv%25C3%25ADo%2520ruta%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGMCl-cwGIjBsiTVnRl6bX5yzm3-RBJxw0Obg-6XxI0ljbf2JjwzwwFL1Yi06dduFbjIXR6_7nMUyAnJSWgFD - Intento 2/3
+2026-02-24 17:39:23,803 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520desv%25C3%25ADo%2520ruta%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGMql-cwGIjALlIbCaMDAtRxYTZIHmXs8H3fVqt8i-GQcWqWMOWt9E9-Xsg9oMQkxzG8w1a5D3wAyAnJSWgFD - Intento 3/3
+2026-02-24 17:39:23,803 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=transporte%20p%C3%BAblico%20Tijuana%20desv%C3%ADo%20ruta&tbm=nws&num=20&hl=es
+2026-02-24 17:39:33,584 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DATT%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGNSl-cwGIjCt8Cwdyr7Ztnh1EFECk2occqvP4mzTbhJEm4bAt7yBqUzALnSqE1c-EVP1YtrEsl4yAnJSWgFD - Intento 1/3
+2026-02-24 17:39:41,128 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DATT%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGNul-cwGIjChgBVqgWYZ-3CS9qlvEjQ_0IE8inSRaS-QroD54rGIZJD4iHo0CzEjMoFLNT0NW3MyAnJSWgFD - Intento 2/3
+2026-02-24 17:39:51,510 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DATT%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGOal-cwGIjAH6TXkhriCUqfRCnWZsVxrsFJDc0x6frc5fOdvDCdZcQkzSSHgCk3C2Ka_7wtYUZEyAnJSWgFD - Intento 3/3
+2026-02-24 17:39:51,510 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=ATT%20Tijuana%20transporte%20noticias&tbm=nws&num=20&hl=es
+2026-02-24 17:39:57,494 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DALTISA%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGOyl-cwGIjAlR5q3D4bacD9-SoQQ6d7F6jHKImZdItF5bbKuqnS0hfbOryMFgWyYKEeZCtc32soyAnJSWgFD - Intento 1/3
+2026-02-24 17:40:05,350 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DALTISA%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGPOl-cwGIjA0ZCb6ZwpbeY7k1lSP73c9bmZqrFs5Imi3zZS7lH5msmNa7WLwu8QdRQyUf3mHZywyAnJSWgFD - Intento 2/3
+2026-02-24 17:40:14,901 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DALTISA%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGP2l-cwGIjCGKTEEWMZYm8YP92T6YZpobW4EVPIWuEPDxBxZuGIX7_EnPH1CpVCUWwQwVs2EovwyAnJSWgFD - Intento 3/3
+2026-02-24 17:40:14,901 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=ALTISA%20Tijuana%20transporte%20noticias&tbm=nws&num=20&hl=es
+2026-02-24 17:40:23,305 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dunidades%2520nuevas%2520transporte%2520Tijuana%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGIWm-cwGIjBYi9V5z9rw6OT1zPC7wvQTLYjK11TKvQUnHa7S28HkJZnWD9zMkSybY98STOjx8-oyAnJSWgFD - Intento 1/3
+2026-02-24 17:40:30,782 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dunidades%2520nuevas%2520transporte%2520Tijuana%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGI2m-cwGIjA5OUmlBrQRYw20PzqRA3xVec4348r8et1LsLFU9D2-mSs0ZRt__vYRSuqREXbsmhYyAnJSWgFD - Intento 2/3
+2026-02-24 17:40:40,090 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dunidades%2520nuevas%2520transporte%2520Tijuana%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGJam-cwGIjAvka0cqs0JAbZPKl35ZVdJ0foHdMUNJY5-XtGZ6b-dcFebIApbrG4K3M-JzsJ46DIyAnJSWgFD - Intento 3/3
+2026-02-24 17:40:40,091 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=unidades%20nuevas%20transporte%20Tijuana&tbm=nws&num=20&hl=es
+2026-02-24 17:40:43,391 [INFO] 📰 Total noticias únicas encontradas: 0
+2026-02-24 17:40:43,395 [INFO] ⚠ Total incidencias NUEVAS generadas: 500
+2026-02-24 17:40:46,748 [INFO] 📝 'INCIDENCIAS_HISTORICAS': 500/500 filas escritas
+2026-02-24 17:40:48,749 [INFO] ✅ 'INCIDENCIAS_HISTORICAS': 500 filas escritas en total
+2026-02-24 17:40:48,749 [INFO] ✅ Fase 5 completada: 500 registros nuevos
+2026-02-24 17:40:48,749 [INFO] 
+============================================================
+2026-02-24 17:40:48,749 [INFO] 📊 RESUMEN FINAL
+2026-02-24 17:40:48,749 [INFO] ============================================================
+2026-02-24 17:40:56,995 [INFO]    📋 RUTAS: 65 registros
+2026-02-24 17:40:56,996 [INFO]    📋 PARADAS: 3036 registros
+2026-02-24 17:40:56,996 [INFO]    📋 UNIDADES: 402 registros
+2026-02-24 17:40:56,996 [INFO]    📋 PUNTOS_DE_INTERES: 1213 registros
+2026-02-24 17:40:56,996 [INFO]    📋 INCIDENCIAS_HISTORICAS: 1002 registros
+2026-02-24 17:40:56,996 [INFO]    🎯 TOTAL: 5718 registros
+2026-02-24 17:40:56,996 [INFO] 
+⏱ Duración total: 0:04:54.023887
+2026-02-24 17:40:56,996 [INFO] 🎯 Meta: 6000 registros | Alcanzados: 5718 (95.3%)
+2026-02-24 17:40:56,996 [INFO] 📈 Faltan 282 registros para la meta
+2026-02-24 17:40:56,996 [INFO] 💡 Sugerencia: Ejecuta de nuevo para agregar más datos
+2026-02-24 17:40:56,996 [INFO] 
+✅ SCRAPING COMPLETADO
+2026-02-24 17:56:03,329 [INFO] 🚌 Scraper de Transporte Público - Tijuana, B.C.
+2026-02-24 17:56:03,329 [INFO] ============================================================
+2026-02-24 17:56:03,330 [INFO] ✅ Configuración cargada correctamente
+2026-02-24 17:56:03,331 [INFO] ============================================================
+2026-02-24 17:56:03,331 [INFO] 🚀 INICIO DE SCRAPING COMPLETO
+2026-02-24 17:56:03,331 [INFO] 📅 Fecha: 2026-02-24 17:56:03
+2026-02-24 17:56:03,331 [INFO] ============================================================
+2026-02-24 17:56:05,284 [INFO] ✅ Conexión exitosa con Google Sheets
+2026-02-24 17:56:06,206 [INFO] Hojas existentes: ['Hoja 1', 'RUTAS', 'PARADAS', 'UNIDADES', 'PUNTOS_DE_INTERES', 'INCIDENCIAS_HISTORICAS']
+2026-02-24 17:56:07,946 [INFO] ✔ Hoja 'RUTAS' ya existe con encabezados
+2026-02-24 17:56:08,716 [INFO] ✔ Hoja 'PARADAS' ya existe con encabezados
+2026-02-24 17:56:09,894 [INFO] ✔ Hoja 'UNIDADES' ya existe con encabezados
+2026-02-24 17:56:11,735 [INFO] ✔ Hoja 'PUNTOS_DE_INTERES' ya existe con encabezados
+2026-02-24 17:56:12,978 [INFO] ✔ Hoja 'INCIDENCIAS_HISTORICAS' ya existe con encabezados
+2026-02-24 17:56:13,374 [INFO] 
+============================================================
+2026-02-24 17:56:13,374 [INFO] 🔄 FASE 1: RUTAS
+2026-02-24 17:56:13,375 [INFO] ============================================================
+2026-02-24 17:56:14,196 [INFO] 📊 Último ID existente en RUTAS: 63
+2026-02-24 17:56:15,013 [INFO] 📊 Rutas existentes: 65
+2026-02-24 17:56:17,587 [INFO] ✅ Página obtenida: https://moovitapp.com/index/es-419/transporte_p%C3%BAblico-Tijuana-3960...
+2026-02-24 17:56:17,592 [INFO] 🔍 Encontrados 8 elementos con 'a[href*='line']'
+2026-02-24 17:56:22,356 [INFO] ✅ Página obtenida: https://moovitapp.com/index/es/transporte_p%C3%BAblico-Tijuana-3960...
+2026-02-24 17:56:22,362 [INFO] 🔍 Encontrados 8 elementos con 'a[href*='line']'
+2026-02-24 17:56:22,362 [INFO] 🚌 Rutas obtenidas de Moovit: 16
+2026-02-24 17:56:22,363 [INFO] 🚌 Total rutas NUEVAS generadas: 0
+2026-02-24 17:56:22,363 [INFO] ✔ Fase 1: No hay datos nuevos que agregar
+2026-02-24 17:56:22,363 [INFO] 
+============================================================
+2026-02-24 17:56:22,363 [INFO] 🔄 FASE 2: PARADAS
+2026-02-24 17:56:22,363 [INFO] ============================================================
+2026-02-24 17:56:24,521 [INFO] 📊 Último ID existente en PARADAS: 3034
+2026-02-24 17:56:25,560 [INFO] 📊 Rutas que ya tienen paradas: 57
+2026-02-24 17:56:25,561 [INFO] 🚏 Total paradas NUEVAS generadas: 0
+2026-02-24 17:56:25,561 [INFO] ✔ Fase 2: No hay datos nuevos que agregar
+2026-02-24 17:56:25,561 [INFO] 
+============================================================
+2026-02-24 17:56:25,561 [INFO] 🔄 FASE 3: UNIDADES
+2026-02-24 17:56:25,561 [INFO] ============================================================
+2026-02-24 17:56:26,891 [INFO] 📊 Último ID existente en UNIDADES: 400
+2026-02-24 17:56:28,122 [INFO] 📊 Rutas que ya tienen unidades: 57
+2026-02-24 17:56:28,122 [INFO] 🚌 Total unidades NUEVAS generadas: 0
+2026-02-24 17:56:28,122 [INFO] ✔ Fase 3: No hay datos nuevos que agregar
+2026-02-24 17:56:28,123 [INFO] 
+============================================================
+2026-02-24 17:56:28,123 [INFO] 🔄 FASE 4: PUNTOS_DE_INTERES
+2026-02-24 17:56:28,123 [INFO] ============================================================
+2026-02-24 17:56:29,360 [INFO] 📊 Último ID existente en PUNTOS_DE_INTERES: 1211
+2026-02-24 17:56:31,206 [INFO] 📊 POIs existentes: 1213
+2026-02-24 17:56:31,210 [INFO] 📍 Total puntos de interés NUEVOS generados: 538
+2026-02-24 17:56:32,938 [INFO] 📝 'PUNTOS_DE_INTERES': 500/538 filas escritas
+2026-02-24 17:56:35,492 [INFO] 📝 'PUNTOS_DE_INTERES': 538/538 filas escritas
+2026-02-24 17:56:37,493 [INFO] ✅ 'PUNTOS_DE_INTERES': 538 filas escritas en total
+2026-02-24 17:56:37,493 [INFO] ✅ Fase 4 completada: 538 registros nuevos
+2026-02-24 17:56:37,493 [INFO] 
+============================================================
+2026-02-24 17:56:37,493 [INFO] 🔄 FASE 5: INCIDENCIAS_HISTORICAS
+2026-02-24 17:56:37,493 [INFO] ============================================================
+2026-02-24 17:56:39,311 [INFO] 📊 Último ID existente en INCIDENCIAS_HISTORICAS: 1000
+2026-02-24 17:56:42,977 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520problemas%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGNmt-cwGIjDth2bDecCRFIMub3Cvnv1whqkG7ZWSJVZkVpQXoLmCWpkCQTuYmdl7uPAz8WGfAlsyAnJSWgFD - Intento 1/3
+2026-02-24 17:56:50,854 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520problemas%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGOGt-cwGIjCUKLhcwCmYbYTY6cS7p-iHO5tn-4s8L1bOubhyIS93N11AhYG2KypIwmHwO2Lmy3wyAnJSWgFD - Intento 2/3
+2026-02-24 17:57:00,787 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520problemas%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGOut-cwGIjBXAoKABlstJd02gd_eldDRHawDDST9DWReVFQfUxpsZU29YIL4gWSRYRWHRKuif2AyAnJSWgFD - Intento 3/3
+2026-02-24 17:57:00,787 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=transporte%20p%C3%BAblico%20Tijuana%20problemas&tbm=nws&num=20&hl=es
+2026-02-24 17:57:09,184 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Drutas%2520camiones%2520Tijuana%2520retraso%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGPOt-cwGIjDUCEmuEruIwyEWbK2i014Bt_z7iemmZzCvtcw-PFuVTJQTmpy-TipWHXwK9NZUPHsyAnJSWgFD - Intento 1/3
+2026-02-24 17:57:17,682 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Drutas%2520camiones%2520Tijuana%2520retraso%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGPyt-cwGIjCEHbDUNjE7fKmj1HDWOLQCxzGYL2TVAkrBc7MAXO8Iano9gbV6kQZHJrBUsH7A9SoyAnJSWgFD - Intento 2/3
+2026-02-24 17:57:28,741 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Drutas%2520camiones%2520Tijuana%2520retraso%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGIeu-cwGIjASBS4JicWAY2UNMzh3VaXcu0qRl4Qv8p-9pgukITPANdWqD3sLb4EexauSUwNoQPsyAnJSWgFD - Intento 3/3
+2026-02-24 17:57:28,741 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=rutas%20camiones%20Tijuana%20retraso&tbm=nws&num=20&hl=es
+2026-02-24 17:57:34,163 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dautobuses%2520Tijuana%2520accidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGIyu-cwGIjAnvfp3GUS04PI1EhAS6PMSKacMm81Ytdrm6o72K0xg15Pc_t18yW6qXCRBKBVOf1oyAnJSWgFD - Intento 1/3
+2026-02-24 17:57:42,770 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dautobuses%2520Tijuana%2520accidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGJWu-cwGIjDemiFOXEbilEYvLfTwqaJzqDmF-q7sXwDcSwz0nvHoiV84NurMl7PQ2zayz5pj6IcyAnJSWgFD - Intento 2/3
+2026-02-24 17:57:53,730 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dautobuses%2520Tijuana%2520accidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGKCu-cwGIjAsxymbswCmTh1WiXhzGzTKVeMtBEu1Mr3j8ud1Gjy-OrqrczWD6ZCvP4qZ-dDP1CoyAnJSWgFD - Intento 3/3
+2026-02-24 17:57:53,731 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=autobuses%20Tijuana%20accidente&tbm=nws&num=20&hl=es
+2026-02-24 17:58:03,455 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSITT%2520Tijuana%2520incidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGKmu-cwGIjCdV7_6HlFJilKjj2N6rBWhfK6e_ta-BT3uQ5KRr2xiPTok-8OD3dS4cCP1jhlX-IMyAnJSWgFD - Intento 1/3
+2026-02-24 17:58:09,906 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSITT%2520Tijuana%2520incidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGLCu-cwGIjASu22ml48ZwNxCdyCOqxprjTbvjMCFyRNfgRsdvdObpa4XM39N8WiwdmassAzM6IgyAnJSWgFD - Intento 2/3
+2026-02-24 17:58:21,641 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DSITT%2520Tijuana%2520incidente%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGLyu-cwGIjBaARuCK5AFnAUEtflz3qwEBot9Ydp1B_80MaMmPV_yVDVVLR2EjdAMRPDm5yQjrBoyAnJSWgFD - Intento 3/3
+2026-02-24 17:58:21,641 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=SITT%20Tijuana%20incidente&tbm=nws&num=20&hl=es
+2026-02-24 17:58:28,547 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520Tijuana%2520manifestaci%25C3%25B3n%2520bloqueo%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGMOu-cwGIjDGTTxXUb41MKCc0jxOM6JrpFhdkkBZm76dlllir2PMPBz0rpuPfYoxepbUEcHMp70yAnJSWgFD - Intento 1/3
+2026-02-24 17:58:36,223 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520Tijuana%2520manifestaci%25C3%25B3n%2520bloqueo%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGMqu-cwGIjDPCqdhsx-Q5gvmbFhmz2R0cYNvL7imjg_3IsTwb4jtLeCKana2BGE-OJ5jc2aH7r0yAnJSWgFD - Intento 2/3
+2026-02-24 17:58:47,590 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520Tijuana%2520manifestaci%25C3%25B3n%2520bloqueo%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGNau-cwGIjCEPX7ZNFHqHQlf1n95Kp85DzYaqDBvIEIj_tojL1mtgjN_nlvtd-Op0dWDfj1w2H0yAnJSWgFD - Intento 3/3
+2026-02-24 17:58:47,590 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=transporte%20Tijuana%20manifestaci%C3%B3n%20bloqueo&tbm=nws&num=20&hl=es
+2026-02-24 17:58:57,217 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dcamiones%2520Tijuana%2520aver%25C3%25ADa%2520descompuesto%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGN-u-cwGIjCD4726UBh7bzTjQNwpZ-OiUEuCOiWRqvMLqn09VrKs-d1fVFfvUCfQemaKGqmRNz4yAnJSWgFD - Intento 1/3
+2026-02-24 17:59:04,156 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dcamiones%2520Tijuana%2520aver%25C3%25ADa%2520descompuesto%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGOau-cwGIjCP9LR3NOk-pCAHmiU4B8ciXUL5D1n6LFl7alUpXirvNoMAn1KgJCVASVhRWD-SVogyAnJSWgFD - Intento 2/3
+2026-02-24 17:59:13,526 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dcamiones%2520Tijuana%2520aver%25C3%25ADa%2520descompuesto%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGO-u-cwGIjCNdABFYKUjrZHC0cwvl0cD1iNafY8OLpHyG5w1FuiepQTL9kgl3a6It3Y9--07r8UyAnJSWgFD - Intento 3/3
+2026-02-24 17:59:13,527 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=camiones%20Tijuana%20aver%C3%ADa%20descompuesto&tbm=nws&num=20&hl=es
+2026-02-24 17:59:21,252 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520desv%25C3%25ADo%2520ruta%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGPeu-cwGIjAlvCCGZW1uoeuRiSWugGxQ7ZUVgXRzIxppYY0BYLf0IHhVxLbXEm869bQn7BDhjywyAnJSWgFD - Intento 1/3
+2026-02-24 17:59:29,785 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520desv%25C3%25ADo%2520ruta%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGICv-cwGIjBIS6KGU68Tpzzwru008yXeIWKu7VRMiTWZstXgFbz65XeiMmEajmPLlMuRZugZ2dAyAnJSWgFD - Intento 2/3
+2026-02-24 17:59:38,475 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dtransporte%2520p%25C3%25BAblico%2520Tijuana%2520desv%25C3%25ADo%2520ruta%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGImv-cwGIjDAK62vRdysohKfIlgYK9BSsCY5aw0A_gV9qF48UM053NZ3uOHKoxHsVyxzl_0HST8yAnJSWgFD - Intento 3/3
+2026-02-24 17:59:38,475 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=transporte%20p%C3%BAblico%20Tijuana%20desv%C3%ADo%20ruta&tbm=nws&num=20&hl=es
+2026-02-24 17:59:48,871 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DATT%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGJOv-cwGIjAd62AjTQEoNW8gDm5ju7jd9pUc-vOUIH6V22m1ym1ird8E2-OgQYw_JndTut2PkpYyAnJSWgFD - Intento 1/3
+2026-02-24 17:59:55,026 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DATT%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGJmv-cwGIjC3JGiXsNbqG_m4AQm3ntLpNBvnsRpW4fSs1u88wnTon-fM_BzIyWPH0tHSdIzdDzwyAnJSWgFD - Intento 2/3
+2026-02-24 18:00:04,589 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DATT%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGKOv-cwGIjCltarDmYAUC32IP8eu1yCfoQTIL2Xm3xkV7SdKMIjnrfLCXP9nYPxYRaHvdroM45YyAnJSWgFD - Intento 3/3
+2026-02-24 18:00:04,589 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=ATT%20Tijuana%20transporte%20noticias&tbm=nws&num=20&hl=es
+2026-02-24 18:00:10,529 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DALTISA%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGKmv-cwGIjCvrEAZn4p_Cnee1DTt8buRnRcivpMRog0ya6bBibERMDyGhokn_oR9LT0w6LAfMXUyAnJSWgFD - Intento 1/3
+2026-02-24 18:00:17,514 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DALTISA%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGK-v-cwGIjDjFgAT1bjEd8YpnEIq2-v7XXs2spUmRhvQssdhzKuU7KEJY44ARu6yQsu1bZkOTJEyAnJSWgFD - Intento 2/3
+2026-02-24 18:00:26,626 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DALTISA%2520Tijuana%2520transporte%2520noticias%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGLmv-cwGIjD5dL6_RBL5Nug06v4xiusDA_sn-kjEjCpL-1pO6beU0qjrDUT2tggXQfe6mfh2c7EyAnJSWgFD - Intento 3/3
+2026-02-24 18:00:26,626 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=ALTISA%20Tijuana%20transporte%20noticias&tbm=nws&num=20&hl=es
+2026-02-24 18:00:36,137 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dunidades%2520nuevas%2520transporte%2520Tijuana%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGMKv-cwGIjCHkkmSfeOFLl90tpZGg8f5eUZcGsqqGzfovTBUqYYrKIzgx4y8be7VWfJKMDaBYGkyAnJSWgFD - Intento 1/3
+2026-02-24 18:00:43,101 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dunidades%2520nuevas%2520transporte%2520Tijuana%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGMmv-cwGIjBZUzm49gVZGlrZUSVJoLxGvFNpSr2CStHb5cAEKHcWE7p13rbrlEoHBhYRl4oTKAEyAnJSWgFD - Intento 2/3
+2026-02-24 18:00:53,045 [WARNING] ⚠ HTTP Error 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dunidades%2520nuevas%2520transporte%2520Tijuana%26tbm%3Dnws%26num%3D20%26hl%3Des&hl=es&q=EgS9y8MGGNOv-cwGIjAlp5-16X7-BNr3cvRby7Afy9ZtROgHK3DetFM_hBGEweU_kYM-Z99kaiWSxFV4QD4yAnJSWgFD - Intento 3/3
+2026-02-24 18:00:53,045 [ERROR] ❌ No se pudo obtener: https://www.google.com/search?q=unidades%20nuevas%20transporte%20Tijuana&tbm=nws&num=20&hl=es
+2026-02-24 18:00:56,418 [INFO] 📰 Total noticias únicas encontradas: 0
+2026-02-24 18:00:56,423 [INFO] ⚠ Total incidencias NUEVAS generadas: 500
+2026-02-24 18:00:58,459 [INFO] 📝 'INCIDENCIAS_HISTORICAS': 500/500 filas escritas
+2026-02-24 18:01:00,461 [INFO] ✅ 'INCIDENCIAS_HISTORICAS': 500 filas escritas en total
+2026-02-24 18:01:00,461 [INFO] ✅ Fase 5 completada: 500 registros nuevos
+2026-02-24 18:01:00,461 [INFO] 
+============================================================
+2026-02-24 18:01:00,462 [INFO] 📊 RESUMEN FINAL
+2026-02-24 18:01:00,462 [INFO] ============================================================
+2026-02-24 18:01:05,841 [INFO]    📋 RUTAS: 65 registros
+2026-02-24 18:01:05,842 [INFO]    📋 PARADAS: 3036 registros
+2026-02-24 18:01:05,842 [INFO]    📋 UNIDADES: 402 registros
+2026-02-24 18:01:05,842 [INFO]    📋 PUNTOS_DE_INTERES: 1751 registros
+2026-02-24 18:01:05,842 [INFO]    📋 INCIDENCIAS_HISTORICAS: 1502 registros
+2026-02-24 18:01:05,842 [INFO]    🎯 TOTAL: 6756 registros
+2026-02-24 18:01:05,842 [INFO] 
+⏱ Duración total: 0:04:57.130584
+2026-02-24 18:01:05,842 [INFO] 🎯 Meta: 6000 registros | Alcanzados: 6756 (112.6%)
+2026-02-24 18:01:05,842 [INFO] 🎉 ¡META ALCANZADA!
+2026-02-24 18:01:05,842 [INFO] 
+✅ SCRAPING COMPLETADO
