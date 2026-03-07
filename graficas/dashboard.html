@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checa tu Bus - Dashboard de Datos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #0F172A;
+            color: #F8FAFC;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1E1B4B 0%, #312E81 50%, #4338CA 100%);
+            padding: 2.5rem 2rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(99, 102, 241, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 30% 50%, rgba(99, 102, 241, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 50%, rgba(236, 72, 153, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #C7D2FE, #F8FAFC, #DDD6FE);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+
+        .header .subtitle {
+            color: #A5B4FC;
+            font-size: 1.1rem;
+            font-weight: 400;
+            position: relative;
+        }
+
+        .header .date {
+            color: #818CF8;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            position: relative;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .stat-card {
+            background: linear-gradient(145deg, #1E293B, #1A2332);
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #6366F1, #EC4899);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            border-color: #6366F1;
+            box-shadow: 0 8px 25px rgba(99, 102, 241, 0.15);
+        }
+
+        .stat-card:hover::after {
+            opacity: 1;
+        }
+
+        .stat-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #6366F1, #8B5CF6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stat-label {
+            color: #94A3B8;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-top: 0.25rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .total-bar {
+            max-width: 1400px;
+            margin: 0 auto 1rem;
+            padding: 0 2rem;
+        }
+
+        .total-bar-inner {
+            background: linear-gradient(135deg, #312E81, #4338CA);
+            border-radius: 12px;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+        }
+
+        .total-bar-inner span {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .total-bar-inner .total-num {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: #C7D2FE;
+        }
+
+        .charts-section {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem 3rem;
+        }
+
+        .charts-section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #E2E8F0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .chart-card {
+            background: linear-gradient(145deg, #1E293B, #1A2332);
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 1rem;
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+        .chart-card:hover {
+            border-color: #6366F1;
+            box-shadow: 0 8px 25px rgba(99, 102, 241, 0.1);
+        }
+
+        .chart-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #475569;
+            font-size: 0.85rem;
+            border-top: 1px solid #1E293B;
+        }
+
+        .footer a {
+            color: #6366F1;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                padding: 1rem;
+            }
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+            .charts-section {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚌 Checa tu Bus</h1>
+        <div class="subtitle">Dashboard de Análisis de Datos — Transporte Público de Tijuana</div>
+        <div class="date">Generado: 07/03/2026 15:42</div>
+    </div>
+
+    <div class="stats-grid">
+        
+            <div class="stat-card">
+                <div class="stat-icon">🚌</div>
+                <div class="stat-value">65</div>
+                <div class="stat-label">Rutas</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🚏</div>
+                <div class="stat-value">3,036</div>
+                <div class="stat-label">Paradas</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🚐</div>
+                <div class="stat-value">402</div>
+                <div class="stat-label">Unidades</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📍</div>
+                <div class="stat-value">1,751</div>
+                <div class="stat-label">Puntos de Interés</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⚠️</div>
+                <div class="stat-value">1,502</div>
+                <div class="stat-label">Incidencias</div>
+            </div>
+    </div>
+
+    <div class="total-bar">
+        <div class="total-bar-inner">
+            <span>📊 Total de registros en la base de datos:</span>
+            <span class="total-num">6,756</span>
+        </div>
+    </div>
+
+    <div class="charts-section">
+        <h2>📈 Visualización de Datos</h2>
+        <div class="charts-grid">
+            
+            <div class="chart-card">
+                <img src="01_rutas_por_concesionario.png" alt=" rutas por concesionario" loading="lazy">
+            </div>
+            <div class="chart-card">
+                <img src="02_rutas_por_tipo_servicio.png" alt=" rutas por tipo servicio" loading="lazy">
+            </div>
+            <div class="chart-card">
+                <img src="03_paradas_por_tipo.png" alt=" paradas por tipo" loading="lazy">
+            </div>
+            <div class="chart-card">
+                <img src="04_top_colonias_paradas.png" alt=" top colonias paradas" loading="lazy">
+            </div>
+            <div class="chart-card">
+                <img src="05_gps_unidades.png" alt=" gps unidades" loading="lazy">
+            </div>
+            <div class="chart-card">
+                <img src="06_top_modelos_unidad.png" alt=" top modelos unidad" loading="lazy">
+            </div>
+            <div class="chart-card">
+                <img src="07_pois_por_tipo.png" alt=" pois por tipo" loading="lazy">
+            </div>
+            <div class="chart-card">
+                <img src="08_incidencias_por_tipo.png" alt=" incidencias por tipo" loading="lazy">
+            </div>
+            <div class="chart-card">
+                <img src="09_incidencias_por_mes.png" alt=" incidencias por mes" loading="lazy">
+            </div>
+            <div class="chart-card">
+                <img src="10_top_rutas_incidencias.png" alt=" top rutas incidencias" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Checa tu Bus &copy; 2026 — Datos extraídos de <a href="https://docs.google.com/spreadsheets/d/1Ykv1whSLXsvuxrVfNrtAnEXpF_X7gc_s2gCDzirGoXY">Google Sheets</a></p>
+    </div>
+</body>
+</html>
